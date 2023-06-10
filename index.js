@@ -33,7 +33,7 @@ function update(){
               <th scope="row">${index+1}</th>
               <td>${element[0]}</td>
               <td>${element[1]}</td>
-              <td><button class="btn btn-danger btn-sm" onclick="deleted(${index})">Delete</button></td>
+              <td><button class="btn btn-sm" style="background-color: #FF2E63; color: #eaeaea" onclick="deleted(${index})">Delete</button></td>
         </tr>`
         
     });
